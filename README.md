@@ -37,8 +37,8 @@ pip install -r requirements.txt
 CREATE DATABASE spotify_clone;
 ```
 Create a `.env` file in `backend/`
-```cd 
-backend/ && touch .env # (Windows: cd backend\ && type nul > .env)
+```bash 
+cd backend/ && touch .env # (Windows: cd backend\ && type nul > .env)
 ```
 
 Set the database URL in `backend/.env`:
