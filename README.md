@@ -6,7 +6,7 @@ Flask & React Symphony is a full-stack web application inspired by Spotify. It i
 ## Features
 - User authentication (JWT-based login & registration)
 - Audio streaming using Flask API
-- PostgreSQL database for user and media storage
+- MySQL database for user and media storage
 - RESTful API for handling requests
 - React frontend with a music player
 - Secure token-based authentication
@@ -14,14 +14,14 @@ Flask & React Symphony is a full-stack web application inspired by Spotify. It i
 ## Tech Stack
 - **Backend:** Flask, Flask-RESTful, Flask-JWT-Extended, SQLAlchemy
 - **Frontend:** React, Axios, React Router
-- **Database:** PostgreSQL
+- **Database:** MySQL
 - **Deployment:** Gunicorn, Nginx, Netlify/Vercel
 
 ## Installation
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/spotify-clone.git
-cd spotify-clone
+git clone https://github.com/theoffclkaze/spotify_clone.git
+cd spotify_clone
 ```
 
 ### 2. Setup Backend (Flask)
@@ -32,13 +32,13 @@ source venv/bin/activate  # (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
 ```
 
-### 3. Setup PostgreSQL Database
+### 3. Setup MySQL Database
 ```sql
 CREATE DATABASE spotify_clone;
 ```
 Set the database URL in `config.py`:
 ```python
-DATABASE_URL = "postgresql://user:password@localhost/spotify_clone"
+DATABASE_URL = "mysql+pymysql://username:password@127.0.0.1/spotify_clone"
 ```
 Run migrations:
 ```bash
@@ -75,9 +75,6 @@ Frontend should be running at `http://localhost:3000/`
 - Deploy backend using Gunicorn & Nginx
 - Deploy frontend on Netlify/Vercel
 - Host database on a cloud provider (e.g., Heroku, Supabase)
-
-## Contributing
-Pull requests are welcome! Open an issue for discussions.
 
 ## License
 MIT License
