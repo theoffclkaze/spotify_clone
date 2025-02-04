@@ -36,7 +36,10 @@ pip install -r requirements.txt
 ```sql
 CREATE DATABASE spotify_clone;
 ```
-Set the database URL in `config.py`:
+Create a `.env` file in `backend/`
+```cd backend/ && touch .env # (Windows: cd backend\ && type nul > .env)```
+
+Set the database URL in `backend/.env`:
 ```python
 DATABASE_URL = "mysql+pymysql://username:password@127.0.0.1/spotify_clone"
 ```
