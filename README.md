@@ -1,7 +1,7 @@
 # **Spotify Clone** - Flask & React Symphony
 
 ## Overview
-Flask & React Symphony is a full-stack web application inspired by Spotify. It is built using Flask for the backend and React for the frontend. The project aims to demonstrate authentication, database management, and audio streaming functionalities.
+"Spotify Clone - Flask & React Symphony" is a full-stack web application inspired by Spotify. It is built using Flask for the backend and React for the frontend. The project aims to demonstrate authentication, database management, and audio streaming functionalities.
 
 ## Features
 - User authentication (JWT-based login & registration)
