@@ -8,7 +8,7 @@ spotify-clone/
 ├── frontend/ (React App)
 ```
 
-✅ **In den Ordner wechseln & Git initialisieren:**  
+✅] **In den Ordner wechseln & Git initialisieren:**  
 ```bash  
 mkdir spotify-clone && cd spotify-clone  
 git init  
